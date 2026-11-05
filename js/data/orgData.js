@@ -224,17 +224,17 @@ export const orgData = {
 
   communityMoments: [
     {
-      image: "assets/wacky.jpg",
+      image: "assets/wacky.webp",
       alt: "RegCom Wacky",
       tilt: "1.2deg"
     },
     {
-      image: "assets/jollibee.jpg",
+      image: "assets/jollibee.webp",
       alt: "RegCom Jollibee Party",
       tilt: "-1.5deg"
     },
     {
-      image: "assets/escaperoom.jpg",
+      image: "assets/escaperoom.webp",
       alt: "RegCom Escape Room",
       tilt: "-1deg"
     }
