@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <rect width="600" height="420" fill="#f0fdf4"/>
+  <circle cx="515" cy="95" r="85" fill="#bbf7d0" opacity="0.65"/>
+  <circle cx="80" cy="320" r="95" fill="#dcfce7"/>
+
+  <!-- Confetti -->
+  <circle cx="150" cy="95" r="6" fill="#4385f6"/>
+  <circle cx="440" cy="110" r="7" fill="#f59e0b"/>
+  <circle cx="280" cy="75" r="5" fill="#ec4899"/>
+  <circle cx="360" cy="95" r="6" fill="#10b981"/>
+
+  <!-- Group Huddle / High-Five -->
+  <circle cx="185" cy="210" r="34" fill="#4385f6"/>
+  <path d="M138 295C138 260 158 246 185 246C212 246 232 260 232 295Z" fill="#2563eb"/>
+
+  <circle cx="300" cy="195" r="38" fill="#1e3a8a"/>
+  <path d="M245 295C245 254 268 236 300 236C332 236 355 254 355 295Z" fill="#1d4ed8"/>
+
+  <circle cx="415" cy="210" r="34" fill="#4385f6"/>
+  <path d="M368 295C368 260 388 246 415 246C442 246 462 260 462 295Z" fill="#2563eb"/>
+
+  <!-- Trophy / Revisi Beban Badge -->
+  <circle cx="300" cy="128" r="22" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="300" y="135" text-anchor="middle" font-size="18">🏆</text>
+
+  <rect x="135" y="335" width="330" height="44" rx="22" fill="#ffffff" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="300" y="362" text-anchor="middle" fill="#166534" font-family="Inter, sans-serif" font-weight="700" font-size="14">
+    🎉 Replace with Revisi Beban / Post-Shift Photo
+  </text>
+</svg>

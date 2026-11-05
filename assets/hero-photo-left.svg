@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <!-- Pure White Studio Background -->
+  <rect width="640" height="480" rx="18" fill="#ffffff"/>
+  <rect x="14" y="14" width="612" height="452" rx="14" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Subtle Studio Shadow -->
+  <ellipse cx="320" cy="405" rx="230" ry="22" fill="#f1f5f9"/>
+
+  <!-- Group Silhouette (Left Wing / Branch Studio Shot) -->
+  <circle cx="205" cy="195" r="34" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+  <path d="M150 325C150 282 175 262 205 262C235 262 260 282 260 325V395H150V325Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+
+  <circle cx="435" cy="195" r="34" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+  <path d="M380 325C380 282 405 262 435 262C465 262 490 282 490 325V395H380V325Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+
+  <circle cx="320" cy="215" r="40" fill="#4385f6"/>
+  <path d="M252 365C252 312 282 282 320 282C358 282 388 312 388 365V410H252V365Z" fill="#2563eb"/>
+
+  <rect x="140" y="55" width="360" height="46" rx="23" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="320" y="83" text-anchor="middle" fill="#334155" font-family="Inter, sans-serif" font-weight="700" font-size="14">
+    📸 Left Hero Studio Photo
+  </text>
+</svg>

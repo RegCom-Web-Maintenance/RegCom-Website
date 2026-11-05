@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <rect width="600" height="420" fill="#fff7ed"/>
+  <circle cx="510" cy="80" r="95" fill="#fed7aa" opacity="0.55"/>
+  <circle cx="90" cy="340" r="110" fill="#ffedd5" opacity="0.8"/>
+
+  <!-- Party Banner -->
+  <path d="M60 40 Q300 95 540 40" stroke="#f97316" stroke-width="3" fill="none"/>
+  <polygon points="120,53 145,58 130,85" fill="#ef4444"/>
+  <polygon points="210,64 235,67 222,95" fill="#eab308"/>
+  <polygon points="300,68 325,68 312,96" fill="#4385f6"/>
+  <polygon points="390,66 415,63 403,92" fill="#ef4444"/>
+  <polygon points="470,56 495,50 484,80" fill="#eab308"/>
+
+  <!-- Table & Chickenjoy Bucket / Party Hats -->
+  <rect x="130" y="295" width="340" height="18" rx="9" fill="#fdba74"/>
+  <!-- Members with Party Hats -->
+  <circle cx="210" cy="215" r="34" fill="#4385f6"/>
+  <polygon points="190,185 210,140 230,185" fill="#ef4444"/>
+  <path d="M160 295C160 262 182 248 210 248C238 248 260 262 260 295Z" fill="#2563eb"/>
+
+  <circle cx="300" cy="200" r="38" fill="#1e3a8a"/>
+  <polygon points="278,166 300,118 322,166" fill="#eab308"/>
+  <path d="M245 295C245 258 268 240 300 240C332 240 355 258 355 295Z" fill="#1d4ed8"/>
+
+  <circle cx="390" cy="215" r="34" fill="#4385f6"/>
+  <polygon points="370,185 390,140 410,185" fill="#ef4444"/>
+  <path d="M340 295C340 262 362 248 390 248C418 248 440 262 440 295Z" fill="#2563eb"/>
+
+  <!-- Bucket on Table -->
+  <polygon points="278,245 322,245 315,295 285,295" fill="#ef4444" stroke="#ffffff" stroke-width="3"/>
+  <rect x="275" y="238" width="50" height="8" rx="4" fill="#ffffff"/>
+
+  <rect x="145" y="335" width="310" height="44" rx="22" fill="#ffffff" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="300" y="362" text-anchor="middle" fill="#9a3412" font-family="Inter, sans-serif" font-weight="700" font-size="14">
+    🍗 Replace with Jollibee Party Photo
+  </text>
+</svg>

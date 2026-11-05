@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <!-- Pure White Studio Background -->
+  <rect width="960" height="600" rx="20" fill="#ffffff"/>
+  <rect x="16" y="16" width="928" height="568" rx="16" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <!-- Subtle Studio Floor Shadow -->
+  <ellipse cx="480" cy="510" rx="370" ry="28" fill="#f1f5f9"/>
+
+  <!-- Back Row Members (Standing) -->
+  <g opacity="0.9">
+    <!-- Person 1 -->
+    <circle cx="230" cy="230" r="34" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+    <path d="M175 375C175 330 200 305 230 305C260 305 285 330 285 375V450H175V375Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+    <!-- Person 2 -->
+    <circle cx="355" cy="215" r="34" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+    <path d="M300 365C300 320 325 295 355 295C385 295 410 320 410 365V450H300V365Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+    <!-- Person 3 -->
+    <circle cx="480" cy="210" r="35" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+    <path d="M422 360C422 315 448 290 480 290C512 290 538 315 538 360V450H422V360Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+    <!-- Person 4 -->
+    <circle cx="605" cy="215" r="34" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+    <path d="M550 365C550 320 575 295 605 295C635 295 660 320 660 365V450H550V365Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+    <!-- Person 5 -->
+    <circle cx="730" cy="230" r="34" fill="#dbeafe" stroke="#4385f6" stroke-width="3"/>
+    <path d="M675 375C675 330 700 305 730 305C760 305 785 330 785 375V450H675V375Z" fill="#eff6ff" stroke="#4385f6" stroke-width="3"/>
+  </g>
+
+  <!-- Front Row Members (ExeCom & Heads) -->
+  <g>
+    <!-- Front 1 -->
+    <circle cx="290" cy="300" r="38" fill="#4385f6"/>
+    <path d="M225 450C225 398 254 368 290 368C326 368 355 398 355 450V505H225V450Z" fill="#2563eb"/>
+    <!-- Front 2 -->
+    <circle cx="415" cy="290" r="40" fill="#1e3a8a"/>
+    <path d="M348 445C348 390 378 360 415 360C452 360 482 390 482 445V505H348V445Z" fill="#1d4ed8"/>
+    <!-- Front 3 -->
+    <circle cx="545" cy="290" r="40" fill="#1e3a8a"/>
+    <path d="M478 445C478 390 508 360 545 360C582 360 612 390 612 445V505H478V445Z" fill="#1d4ed8"/>
+    <!-- Front 4 -->
+    <circle cx="670" cy="300" r="38" fill="#4385f6"/>
+    <path d="M605 450C605 398 634 368 670 368C706 368 735 398 735 450V505H605V450Z" fill="#2563eb"/>
+  </g>
+
+  <!-- Label Pill -->
+  <rect x="250" y="70" width="460" height="68" rx="34" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="480" y="100" text-anchor="middle" fill="#0f172a" font-family="Inter, sans-serif" font-weight="700" font-size="16">
+    📸 Organization Studio Group Photo Placeholder
+  </text>
+  <text x="480" y="122" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-weight="500" font-size="13">
+    Replace assets/group-photo-placeholder.svg with your white-background photo
+  </text>
+</svg>

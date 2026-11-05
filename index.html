@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ateneo Registration Committee (RegCom)</title>
+    <meta
+      name="description"
+      content="Official Internal Website of the Ateneo Registration Committee (RegCom). Service. Volunteerism. Discipline. Commitment."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/regcom-logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ================================================================== -->
+    <!-- NAVIGATION BAR (Logo on Top Left, No Semester/School Year)         -->
+    <!-- ================================================================== -->
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="#top" class="brand-logo">
+          <img src="assets/regcom-logo.svg" alt="RegCom Logo" class="brand-logo-img" />
+          <span>Ateneo Registration Committee</span>
+        </a>
+
+        <button
+          type="button"
+          class="mobile-menu-btn"
+          id="mobile-menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav-links"
+        >
+          ☰
+        </button>
+
+        <ul class="nav-links" id="main-nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#structure">Structure</a></li>
+          <li><a href="#liabilities">Liability Tracker</a></li>
+          <li><a href="#showcase">Web Showcase</a></li>
+          <li><a href="#links" class="nav-cta-pill">Important Links</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ================================================================== -->
+    <!-- HERO BANNER (Centered, Clean, Featuring White-BG Group Photo)      -->
+    <!-- ================================================================== -->
+    <section class="hero-section" id="top">
+      <div class="container hero-centered">
+        <div class="hero-copy">
+          <span class="hero-eyebrow">First Semester S.Y. 2026–2027</span>
+          <h1 class="hero-title">Service. Volunteerism. Discipline. Commitment.</h1>
+          <p class="hero-tagline">
+            We are a community of student volunteers under the Office of the University Registrar
+            dedicated to making registration smooth and accessible for every Atenista.
+          </p>
+          <div class="hero-actions">
+            <a href="#liabilities" class="btn btn-white">Check Liability Points</a>
+            <a href="#links" class="btn btn-ghost-white">Important Links</a>
+          </div>
+        </div>
+
+        <!-- Organization Group Photo Trio (Left, Center Main, Right) -->
+        <div class="hero-photo-trio">
+          <div class="hero-photo-frame hero-photo-side hero-photo-left">
+            <img
+              src="assets/regcom-2425.jpg"
+              alt="Ateneo Registration Committee Group Photo Left"
+              class="hero-group-photo"
+            />
+          </div>
+
+          <div class="hero-photo-frame hero-photo-center">
+            <img
+              src="assets/regcom-2627.jpg"
+              alt="Ateneo Registration Committee Group Photo"
+              class="hero-group-photo"
+            />
+          </div>
+
+          <div class="hero-photo-frame hero-photo-side hero-photo-right">
+            <img
+              src="assets/regcom-2526.JPG"
+              alt="Ateneo Registration Committee Group Photo Right"
+              class="hero-group-photo"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Curved SVG Wave Divider -->
+      <svg
+        class="hero-wave-divider"
+        viewBox="0 0 1440 90"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          fill="#ffffff"
+          d="M0,25 C420,95 1020,95 1440,25 L1440,90 L0,90 Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- ABOUT & CORE VALUES                                                -->
+    <!-- ================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">About Us</span>
+          <h2 class="section-title">What is RegCom?</h2>
+          <p class="section-subtitle" id="about-description-text"></p>
+        </div>
+
+        <!-- 4 Core Values -->
+        <div class="values-grid" id="core-values-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- LIFE BEYOND THE SHIFT (Heartwarming & Goofy Community Moments)     -->
+    <!-- ================================================================== -->
+    <section class="section section-warm" id="community">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">More Than Just Enlistment</span>
+          <h2 class="section-title">Life Beyond the Helpdesk</h2>
+          <p class="section-subtitle">
+            Behind every smooth registration week is a tight-knit family that celebrates with
+            Jollibee parties, goofy 0.5x photos of the heads, and post-shift laughter.
+          </p>
+        </div>
+
+        <div class="Scrapbook-grid" id="community-moments-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- ORGANIZATIONAL STRUCTURE                                           -->
+    <!-- ================================================================== -->
+    <section class="section section-alt" id="structure">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Our Team</span>
+          <h2 class="section-title">Organizational Structure</h2>
+          <p class="section-subtitle">
+            Led by the Executive Committee and divided into three main branches:
+            <strong>HR</strong>, <strong>PROMOS</strong>, and <strong>WEB</strong>.
+          </p>
+        </div>
+
+        <!-- Executive Committee Cards -->
+        <h3 class="subsection-heading">Executive Committee</h3>
+        <div class="execom-cards-grid" id="execom-cards-grid"></div>
+
+        <!-- Branch Filter Tabs & Clean Sub-Branch Cards -->
+        <h3 class="subsection-heading">Branches &amp; Sub-Branches</h3>
+        <div class="branch-filter-bar" role="tablist" aria-label="Filter Branches">
+          <button type="button" class="branch-filter-btn active" data-branch="all">All</button>
+          <button type="button" class="branch-filter-btn" data-branch="hr">HR</button>
+          <button type="button" class="branch-filter-btn" data-branch="promos">Promos</button>
+          <button type="button" class="branch-filter-btn" data-branch="web">Web</button>
+        </div>
+
+        <div id="branches-container"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- PRIVATE LIABILITY TRACKER (Step 1: Key -> Step 2: Member ID)       -->
+    <!-- ================================================================== -->
+    <section class="section" id="liabilities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Membership Portal</span>
+          <h2 class="section-title">Liability Tracker</h2>
+          <p class="section-subtitle">
+            Unlock with the organization key, then enter your Student ID number to privately view
+            your personal attendance and liability record.
+          </p>
+        </div>
+
+        <div class="liability-vault-card">
+          <!-- STEP 1: ENTER DECRYPTION KEY -->
+          <div id="liability-locked-view" class="vault-step-box">
+            <div class="vault-step-pill">Step 1 of 2 • Decrypt Database</div>
+            <h3>Enter Decryption Key</h3>
+            <p class="text-muted">
+              Data is encrypted in the repository. Enter the RegCom key to unlock lookup.
+            </p>
+
+            <form id="liability-unlock-form" class="vault-form">
+              <input
+                type="password"
+                id="liability-key-input"
+                class="vault-input"
+                placeholder="Enter decryption key (e.g. regcom2627)"
+                autocomplete="off"
+                required
+              />
+              <button type="submit" class="btn btn-primary">Continue →</button>
+            </form>
+
+            <div id="liability-error" class="error-banner" hidden></div>
+
+            <div class="vault-footer-note">
+              <button type="button" class="link-button" id="open-encryptor-btn">
+                Membership Heads: Open Admin Encryptor Tool
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 2: ENTER PERSONAL ID NUMBER -->
+          <div id="liability-unlocked-view" class="vault-step-box" hidden>
+            <div class="vault-unlocked-bar">
+              <span class="vault-step-pill">Step 2 of 2 • Member Lookup</span>
+              <span class="text-muted small-note" id="liability-meta-updated"></span>
+              <button type="button" class="link-button" id="liability-lock-btn">Lock</button>
+            </div>
+
+            <h3>Enter Your ID Number</h3>
+            <p class="text-muted">
+              Enter your Ateneo Student ID number to view your individual liability points.
+            </p>
+
+            <form id="liability-id-form" class="vault-form">
+              <input
+                type="text"
+                id="liability-id-input"
+                class="vault-input"
+                placeholder="Enter Student ID (e.g. 221001, 241234)"
+                autocomplete="off"
+                required
+              />
+              <button type="submit" class="btn btn-primary">Check My Points</button>
+            </form>
+
+            <div id="liability-id-error" class="error-banner" hidden></div>
+
+            <!-- Individual Member Card Output -->
+            <div id="liability-member-result" class="member-result-card" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- WEB BRANCH SHOWCASE (MINI-GAMES WITH CREDITS)                      -->
+    <!-- ================================================================== -->
+    <section class="section section-alt" id="showcase">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Web Sub-Branch</span>
+          <h2 class="section-title">Web Branch Showcase</h2>
+          <p class="section-subtitle">
+            Tiny games built by Web Sub-Branch members. Select a game below to play!
+          </p>
+        </div>
+
+        <div class="showcase-layout">
+          <aside class="showcase-sidebar">
+            <div class="showcase-tabs" id="showcase-game-tabs" role="tablist"></div>
+
+            <div class="showcase-credits-card">
+              <span class="credits-badge">Credits</span>
+              <h4 id="showcase-credit-title"></h4>
+              <p class="credits-author-line">
+                By <span id="showcase-credit-author"></span>
+                <small id="showcase-credit-role"></small>
+              </p>
+              <p id="showcase-credit-desc" class="credits-desc"></p>
+            </div>
+
+            <!-- Onboarding Card for New Web Sub-Branch Members -->
+            <div class="showcase-contribute-card">
+              <span class="contribute-pill">👋 New Web Member?</span>
+              <h4>Build Your First Feature!</h4>
+              <p>
+                Adding a mini-game here is our official onboarding exercise to help you learn how
+                our codebase and GitHub workflow work.
+              </p>
+              <button
+                type="button"
+                class="btn btn-sm btn-outline btn-block"
+                id="open-add-game-modal-btn"
+              >
+                + How to Add Your Game
+              </button>
+            </div>
+          </aside>
+
+          <div class="showcase-stage-card">
+            <div id="showcase-game-stage"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- IMPORTANT LINKS                                                    -->
+    <!-- ================================================================== -->
+    <section class="section" id="links">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Resources</span>
+          <h2 class="section-title">Important Links</h2>
+          <p class="section-subtitle">
+            Quick access to the RegCom Manual, Higher Education Directory, and official channels.
+          </p>
+        </div>
+
+        <div class="important-links-grid" id="important-links-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- FOOTER                                                             -->
+    <!-- ================================================================== -->
+    <footer class="site-footer">
+      <svg
+        class="footer-wave-top"
+        viewBox="0 0 1440 80"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          fill="#ffffff"
+          d="M0,50 C480,0 960,0 1440,50 L1440,0 L0,0 Z"
+        ></path>
+      </svg>
+
+      <div class="container footer-content">
+        <div class="footer-main">
+          <div class="brand-logo">
+            <img src="assets/regcom-logo.svg" alt="RegCom Logo" class="brand-logo-img" />
+            <span>Ateneo Registration Committee</span>
+          </div>
+          <p class="footer-tagline">Service. Volunteerism. Discipline. Commitment.</p>
+          <div class="footer-links-inline">
+            <a href="https://bit.ly/HEDirectory" target="_blank" rel="noopener noreferrer"
+              >HE Directory</a
+            >
+            <span>•</span>
+            <a
+              href="https://www.facebook.com/RegComHelpdesk"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook Helpdesk</a
+            >
+            <span>•</span>
+            <a href="https://www.instagram.com/ateneoregcom" target="_blank" rel="noopener noreferrer"
+              >@ateneoregcom</a
+            >
+            <span>•</span>
+            <a href="mailto:regcom.college.org@student.ateneo.edu">Email Us</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© Ateneo Registration Committee. Hosted on GitHub Pages.</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================================================================== -->
+    <!-- MODAL 1: REGCOM MANUAL VIEWER (On-Demand so page stays clean)      -->
+    <!-- ================================================================== -->
+    <div class="modal-backdrop" id="manual-modal" hidden>
+      <div class="modal-dialog modal-lg" role="dialog" aria-labelledby="manual-modal-title">
+        <div class="modal-header">
+          <div>
+            <span class="section-badge" style="margin-bottom: 0.2rem">First Semester S.Y. 2026–2027</span>
+            <h3 id="manual-modal-title">RegCom Manual &amp; Guidelines</h3>
+          </div>
+          <button type="button" class="btn btn-sm btn-secondary" id="close-manual-modal">
+            ✕ Close
+          </button>
+        </div>
+
+        <div class="manual-toolbar">
+          <input
+            type="search"
+            id="manual-search-input"
+            class="search-input"
+            placeholder="🔍 Search manual topics, letter templates, or registration FAQs..."
+          />
+        </div>
+
+        <div class="manual-part-tabs" id="manual-part-tabs" role="tablist"></div>
+        <div id="manual-content-stage"></div>
+      </div>
+    </div>
+
+    <!-- ================================================================== -->
+    <!-- MODAL 2: ADMIN AES-256-GCM ENCRYPTOR TOOL                          -->
+    <!-- ================================================================== -->
+    <div class="modal-backdrop" id="encryptor-modal" hidden>
+      <div class="modal-dialog" role="dialog" aria-labelledby="encryptor-modal-title">
+        <div class="modal-header">
+          <h3 id="encryptor-modal-title">Membership Admin Encryptor (AES-256-GCM)</h3>
+          <button type="button" class="btn btn-sm btn-secondary" id="close-encryptor-modal">
+            ✕ Close
+          </button>
+        </div>
+        <p class="text-muted small-note" style="margin-top: 0">
+          Update the JSON records below, set the decryption key, and click
+          <strong>Generate Encrypted File</strong>. Paste the output into
+          <code>js/data/encryptedLiabilities.js</code>.
+        </p>
+
+        <textarea id="encryptor-json-input" class="code-textarea" rows="9"></textarea>
+
+        <div style="display: flex; gap: 0.65rem; margin-bottom: 0.85rem; flex-wrap: wrap">
+          <input
+            type="text"
+            id="encryptor-passphrase-input"
+            class="search-input"
+            value="regcom2627"
+            placeholder="Encryption key..."
+          />
+          <button type="button" class="btn btn-primary" id="generate-encrypted-btn">
+            Generate Encrypted File
+          </button>
+        </div>
+
+        <textarea
+          id="encryptor-output-code"
+          class="code-textarea"
+          rows="5"
+          readonly
+          placeholder="Encrypted output will appear here..."
+        ></textarea>
+        <button type="button" class="btn btn-secondary btn-block" id="copy-encrypted-output-btn">
+          Copy Code for js/data/encryptedLiabilities.js
+        </button>
+      </div>
+    </div>
+
+    <!-- ================================================================== -->
+    <!-- MODAL 3: NEW WEB MEMBER ONBOARDING — HOW TO ADD YOUR OWN GAME      -->
+    <!-- ================================================================== -->
+    <div class="modal-backdrop" id="add-game-modal" hidden>
+      <div class="modal-dialog modal-lg" role="dialog" aria-labelledby="add-game-modal-title">
+        <div class="modal-header">
+          <div>
+            <span class="section-badge" style="margin-bottom: 0.2rem">Web Sub-Branch Onboarding</span>
+            <h3 id="add-game-modal-title">How to Add Your Own Mini-Game</h3>
+          </div>
+          <button type="button" class="btn btn-sm btn-secondary" id="close-add-game-modal">
+            ✕ Close
+          </button>
+        </div>
+
+        <p class="text-muted" style="margin-top: 0; font-size: 0.9rem">
+          Welcome to the RegCom Web team! Adding a game to the Web Branch Showcase takes only
+          <strong>2 steps</strong> and is a fun way to practice creating modules and opening your
+          first Pull Request on GitHub.
+        </p>
+
+        <div class="onboarding-steps">
+          <div class="onboarding-step-card">
+            <div class="step-header-row">
+              <span class="step-badge">Step 1</span>
+              <strong>Create your game file in <code>js/games/</code></strong>
+            </div>
+            <p class="small-note text-muted" style="margin: 0.35rem 0 0.75rem">
+              Duplicate <code>js/games/_template.js</code> (or copy the starter code below) and save
+              it as <code>js/games/yourGameName.js</code>.
+            </p>
+            <div class="tpl-header">
+              <span class="mono-code">js/games/yourGameName.js</span>
+              <button type="button" class="btn btn-sm btn-secondary" id="copy-game-template-btn">
+                📋 Copy Starter Template
+              </button>
+            </div>
+            <pre class="tpl-pre" id="game-template-code">export default {
+  id: "my-game",
+  title: "Name of Your Game",
+  author: "Your Full Name",
+  authorRole: "Web Sub-Branch Member (Year &amp; Course)",
+  description: "Short 1-sentence instruction on how to play.",
+
+  mount(container) {
+    // Render your game's HTML inside `container`
+    container.innerHTML = `
+      &lt;div style="text-align:center; padding: 2rem;"&gt;
+        &lt;h3&gt;My Awesome Game 🎮&lt;/h3&gt;
+        &lt;button class="btn btn-primary" id="play-btn"&gt;Click Me!&lt;/button&gt;
+      &lt;/div&gt;
+    `;
+
+    // Attach your event listeners
+    const btn = container.querySelector("#play-btn");
+    btn.addEventListener("click", () => alert("Kumusta, Atenista!"));
+
+    // Optional: return a cleanup function (e.g. clearInterval) when switching tabs
+    return () => {};
+  }
+};</pre>
+          </div>
+
+          <div class="onboarding-step-card">
+            <div class="step-header-row">
+              <span class="step-badge">Step 2</span>
+              <strong>Register your game in <code>js/games/index.js</code></strong>
+            </div>
+            <p class="small-note text-muted" style="margin: 0.35rem 0 0.75rem">
+              Open <code>js/games/index.js</code>, import your file at the top, and add it to the
+              <code>games</code> array. The website will automatically create a tab and display your
+              credits!
+            </p>
+            <pre class="tpl-pre">import minesweeper from "./minesweeper.js";
+import myGame from "./yourGameName.js"; // 1. Import your file
+
+export const games = [
+  minesweeper,
+  myGame // 2. Add it to the list!
+];</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
