@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326 190" width="100%" height="100%">
+  <!-- 
+    Geometric specifications matched 1:1 to source image:
+    - Color: #4085F5
+    - Outer Radius (R): 81
+    - Inner Radius (r): 49.5 (Stroke thickness: 31.5)
+    - Left Center: (98.5, 95) | Right Center: (227.5, 95)
+    - Center Horizontal Gap: y = 89 to y = 101 (12px gap)
+    - Angled Cut: 55 degrees from positive x-axis
+  -->
+  <g fill="#ffffff">
+    <!-- Left 'C' Shape -->
+    <path d="M 144.96 28.65 
+             A 81 81 0 1 0 179.35 101 
+             L 147.64 101 
+             A 49.5 49.5 0 1 1 126.89 54.45 
+             Z" />
+
+    <!-- Right Inverted 'C' Shape (180-degree rotational symmetry) -->
+    <path d="M 181.04 161.35 
+             A 81 81 0 1 0 146.65 89 
+             L 178.36 89 
+             A 49.5 49.5 0 1 1 199.11 135.55 
+             Z" />
+  </g>
+</svg>

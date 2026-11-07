@@ -1,7 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
-  <rect width="120" height="120" rx="28" fill="#ffffff"/>
-  <rect x="8" y="8" width="104" height="104" rx="22" stroke="#4385f6" stroke-width="4"/>
-  <path d="M34 82V38H55C65.5 38 72 43.5 72 52C72 58.5 68 63.2 61.5 65L73 82H61L51 66H44V82H34ZM44 57H54C59 57 62 55 62 52C62 49 59 47 54 47H44V57Z" fill="#4385f6"/>
-  <circle cx="84" cy="44" r="9" fill="#4385f6"/>
-  <path d="M77 66C77 59.5 81.5 55 88 55C92.5 55 96 57.2 97.5 60.5L90.5 64.5C89.8 63 88.8 62.2 87.5 62.2C85.2 62.2 84 63.8 84 66C84 68.2 85.2 69.8 87.5 69.8C88.8 69.8 89.8 69 90.5 67.5L97.5 71.5C96 74.8 92.5 77 88 77C81.5 77 77 72.5 77 66Z" fill="#1e3a8a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326 190" width="100%" height="100%">
+  <!-- 
+    Geometric specifications matched 1:1 to source image:
+    - Color: #4085F5
+    - Outer Radius (R): 81
+    - Inner Radius (r): 49.5 (Stroke thickness: 31.5)
+    - Left Center: (98.5, 95) | Right Center: (227.5, 95)
+    - Center Horizontal Gap: y = 89 to y = 101 (12px gap)
+    - Angled Cut: 55 degrees from positive x-axis
+  -->
+  <g fill="#4085F5">
+    <!-- Left 'C' Shape -->
+    <path d="M 144.96 28.65 
+             A 81 81 0 1 0 179.35 101 
+             L 147.64 101 
+             A 49.5 49.5 0 1 1 126.89 54.45 
+             Z" />
+
+    <!-- Right Inverted 'C' Shape (180-degree rotational symmetry) -->
+    <path d="M 181.04 161.35 
+             A 81 81 0 1 0 146.65 89 
+             L 178.36 89 
+             A 49.5 49.5 0 1 1 199.11 135.55 
+             Z" />
+  </g>
 </svg>
